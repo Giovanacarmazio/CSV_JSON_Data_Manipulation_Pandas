@@ -1,17 +1,47 @@
-## Manipulando arquivo CSV. e JSON com biblipteca PANDAS.
+# CSV and JSON Data Manipulation with Pandas
 
+Este repositório contém exemplos práticos de como manipular dados nos formatos **CSV** e **JSON** utilizando a biblioteca **Pandas** em Python. O objetivo é mostrar como carregar, transformar e analisar dados em diferentes formatos usando ferramentas de análise de dados.
 
-## Questão 1
-Quantos elementos existem em json_response["hits"]["hits"] ? dica: é uma lista
+## Descrição do Projeto
 
-## Questão 2
-Apresente na tela o primeiro e o ultimo objeto de json_response["hits"]["hits"].
+O projeto **CSV and JSON Data Manipulation with Pandas** oferece uma visão prática sobre a leitura, escrita e manipulação de arquivos CSV e JSON, permitindo a análise de dados e a criação de insights de forma eficiente.
 
-## Questão 3
-Você consegue apresentar em tela todos os UF (estão na chave paciente_endereco_uf) que aparecerem nessa requisição? (bonus: tente apresentar sem repetir)
+## Tecnologias Utilizadas
 
-## Questão 4
-Você consegue apresentar em tela todos os CEPs (estão na chave paciente_endereco_cep) que aparecerem nessa requisição? Note que eles são diferentes de um CEP normal, por que você imagina que estão assim?
+- **Python**
+- **Pandas**
+- **CSV**
+- **JSON**
 
-## Questão 5
-Em suas palavras, o que é o HTTPBasicAuth? por que é importante que APIs tenham esse tipo de autenticação?
+## Estrutura do Repositório
+
+- `data/`: Arquivos de dados nos formatos CSV e JSON.
+- `scripts/`: Scripts Python para manipulação e análise de dados.
+- `docs/`: Documentação explicando os exemplos e métodos utilizados.
+
+## Como Executar
+
+### Pré-requisitos
+
+- Python 3.7+
+- Instalar as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Passos para execução
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Giovanacarmazio/Manipulacao-csv-e-json-pandas.git
+   ```
+
+2. Execute os scripts:
+   ```bash
+   python <nome_do_script>.py
+   ```
+
+## Contribuições
+
+Contribuições são bem-vindas! Abra *issues* ou envie *pull requests* para melhorias ou novos exemplos.
+```
